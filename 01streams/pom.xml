@@ -12,7 +12,15 @@
 
     <artifactId>01streams</artifactId>
 
-    <name>01 Streams</name>
+    <name>01streams</name>
     <description>Learning Java Streams API</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.codeprep</groupId>
+            <artifactId>00data</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
