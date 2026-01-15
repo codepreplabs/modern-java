@@ -20,6 +20,7 @@
         <module>04method-reference</module>
         <module>05parallel-streams</module>
         <module>06optional</module>
+        <module>07default-static-methods</module>
     </modules>
 
     <properties>
