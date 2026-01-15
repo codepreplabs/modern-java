@@ -13,7 +13,13 @@
     <description>Multi-module project for learning modern Java features</description>
 
     <modules>
+        <module>00data</module>
         <module>01streams</module>
+        <module>02lambda</module>
+        <module>03functional-interfaces</module>
+        <module>04method-reference</module>
+        <module>05parallel-streams</module>
+        <module>06optional</module>
     </modules>
 
     <properties>
