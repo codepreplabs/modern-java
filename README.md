@@ -55,6 +55,19 @@ This is a multi-module Maven project with the following modules:
   - Conditional execution (ifPresent, isPresent)
   - Best practices for null handling
 
+- **07default-static-methods** - Default and Static Methods in Interfaces
+  - Default method implementation
+  - Static methods in interfaces
+  - Multiple inheritance with default methods
+  - Resolving conflicts with default methods
+
+- **08date-time** - Date and Time API
+  - LocalDate, LocalTime, and LocalDateTime
+  - Instant and ZonedDateTime
+  - Period and Duration
+  - Date and time formatting
+  - Converting legacy Date to LocalDate
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -93,6 +106,8 @@ mvn exec:java -Dexec.mainClass="com.codeprep.YourMainClass"
 - **Method References**: Simplifying lambda expressions
 - **Optional**: Avoiding null pointer exceptions
 - **Parallel Processing**: Leveraging multi-core processors
+- **Default and Static Methods**: Interface evolution and multiple inheritance
+- **Date and Time API**: Modern temporal data handling with java.time package
 
 ## 🛠️ Technology Stack
 
@@ -111,6 +126,8 @@ Recommended order for studying the modules:
 5. **01streams** - Master the Streams API
 6. **05parallel-streams** - Optimize with parallel processing
 7. **06optional** - Handle nulls gracefully
+8. **07default-static-methods** - Learn interface evolution with default and static methods
+9. **08date-time** - Master the modern Date and Time API
 
 ## 🤝 Contributing
 
