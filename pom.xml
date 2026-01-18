@@ -22,11 +22,16 @@
         <module>06optional</module>
         <module>07default-static-methods</module>
         <module>08date-time</module>
+        <module>09compact-main</module>
+        <module>10local-variable-type-inference</module>
+        <module>11text-block</module>
+        <module>12enhanced-switch</module>
+        <module>13record-class</module>
     </modules>
 
     <properties>
-        <maven.compiler.source>24</maven.compiler.source>
-        <maven.compiler.target>24</maven.compiler.target>
+        <maven.compiler.source>25</maven.compiler.source>
+        <maven.compiler.target>25</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -36,7 +41,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.11.0</version>
+                    <version>3.14.1</version>
                     <configuration>
                         <source>${maven.compiler.source}</source>
                         <target>${maven.compiler.target}</target>
