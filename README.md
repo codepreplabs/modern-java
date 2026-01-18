@@ -68,6 +68,37 @@ This is a multi-module Maven project with the following modules:
   - Date and time formatting
   - Converting legacy Date to LocalDate
 
+- **09compact-main** - Compact Main Method (Java 21+)
+  - Simplified main method syntax
+  - Unnamed classes
+  - Instance methods without static
+  - JEP 445 features
+
+- **10local-variable-type-inference** - Local Variable Type Inference (Java 10+)
+  - Using the `var` keyword
+  - Type inference for local variables
+  - Best practices and limitations
+  - When to use and when to avoid `var`
+
+- **11text-block** - Text Blocks (Java 15+)
+  - Multi-line string literals
+  - Automatic indentation management
+  - SQL queries, JSON, XML, and HTML templates
+  - Improved code readability
+
+- **12enhanced-switch** - Enhanced Switch Expressions (Java 14+)
+  - Switch expressions with return values
+  - Arrow syntax (->)
+  - Multiple case labels
+  - Yield keyword
+  - Pattern matching (Java 17+)
+
+- **13record-class** - Record Classes (Java 16+)
+  - Immutable data carriers
+  - Automatic constructor, getters, equals, hashCode, toString
+  - Compact constructors for validation
+  - Use cases: DTOs, value objects, API models
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -108,6 +139,11 @@ mvn exec:java -Dexec.mainClass="com.codeprep.YourMainClass"
 - **Parallel Processing**: Leveraging multi-core processors
 - **Default and Static Methods**: Interface evolution and multiple inheritance
 - **Date and Time API**: Modern temporal data handling with java.time package
+- **Compact Main Method**: Simplified program entry points (Java 21+)
+- **Local Variable Type Inference**: Using `var` for cleaner code (Java 10+)
+- **Text Blocks**: Multi-line string literals for better readability (Java 15+)
+- **Enhanced Switch**: Switch expressions with pattern matching (Java 14+)
+- **Record Classes**: Immutable data carriers with less boilerplate (Java 16+)
 
 ## 🛠️ Technology Stack
 
@@ -128,6 +164,11 @@ Recommended order for studying the modules:
 7. **06optional** - Handle nulls gracefully
 8. **07default-static-methods** - Learn interface evolution with default and static methods
 9. **08date-time** - Master the modern Date and Time API
+10. **10local-variable-type-inference** - Use `var` for cleaner local variables (Java 10+)
+11. **11text-block** - Write multi-line strings with text blocks (Java 15+)
+12. **12enhanced-switch** - Use enhanced switch expressions (Java 14+)
+13. **13record-class** - Create immutable data carriers with records (Java 16+)
+14. **09compact-main** - Simplify main methods with compact syntax (Java 21+)
 
 ## 🤝 Contributing
 
