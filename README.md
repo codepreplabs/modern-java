@@ -99,6 +99,12 @@ This is a multi-module Maven project with the following modules:
   - Compact constructors for validation
   - Use cases: DTOs, value objects, API models
 
+- **14sealed-classes** - Sealed Classes (Java 17+)
+  - Restricted class hierarchies
+  - Explicit control over subclasses
+  - Pattern matching with sealed types
+  - Enhanced type safety
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -144,12 +150,13 @@ mvn exec:java -Dexec.mainClass="com.codeprep.YourMainClass"
 - **Text Blocks**: Multi-line string literals for better readability (Java 15+)
 - **Enhanced Switch**: Switch expressions with pattern matching (Java 14+)
 - **Record Classes**: Immutable data carriers with less boilerplate (Java 16+)
+- **Sealed Classes**: Restricted class hierarchies for better type safety (Java 17+)
 
 ## 🛠️ Technology Stack
 
 - Java 24
 - Maven 3.11.0
-- JUnit (for testing)
+- JUnit 5 (Jupiter) for testing
 
 ## 📖 Learning Path
 
@@ -168,7 +175,8 @@ Recommended order for studying the modules:
 11. **11text-block** - Write multi-line strings with text blocks (Java 15+)
 12. **12enhanced-switch** - Use enhanced switch expressions (Java 14+)
 13. **13record-class** - Create immutable data carriers with records (Java 16+)
-14. **09compact-main** - Simplify main methods with compact syntax (Java 21+)
+14. **14sealed-classes** - Control class hierarchies with sealed classes (Java 17+)
+15. **09compact-main** - Simplify main methods with compact syntax (Java 21+)
 
 ## 🤝 Contributing
 
