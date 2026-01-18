@@ -1,0 +1,3 @@
+This is an example file demonstrating the use of var with try-with-resources.
+Local variable type inference makes the code cleaner and more readable.
+BufferedReader can be declared using var instead of the full type name.
