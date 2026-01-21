@@ -30,6 +30,7 @@
         <module>14sealed-classes</module>
         <module>15pattern-matching</module>
         <module>16unnamed-variables</module>
+        <module>17web-server</module>
     </modules>
 
     <properties>
