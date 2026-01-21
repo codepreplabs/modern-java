@@ -28,6 +28,8 @@
         <module>12enhanced-switch</module>
         <module>13record-class</module>
         <module>14sealed-classes</module>
+        <module>15pattern-matching</module>
+        <module>16unnamed-variables</module>
     </modules>
 
     <properties>
