@@ -31,6 +31,8 @@
         <module>15pattern-matching</module>
         <module>16unnamed-variables</module>
         <module>17web-server</module>
+        <module>18http-client</module>
+        <module>19stream-gatherers</module>
     </modules>
 
     <properties>
